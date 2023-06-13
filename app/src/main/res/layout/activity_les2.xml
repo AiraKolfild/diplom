@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6a7d8a"
+    tools:context=".les2">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/round_white"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="В прошлом уроке мы разобрались что такое качество ПО. Теперь поговорим о том, что включает в себя процесс тестирования. Данный процесс имеет несколько «видов» контроля (проверок). Каждый предусматривает свои ключевые особенности:"
+            android:textColor="#667D8A"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.452"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.347"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            app:layout_constraintVertical_bias="0.047">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="171dp"
+                android:layout_height="411dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:text="1. QC – контроль качества продукта (системы). Представляет собой анализ результатов тестирования и качества новых версия проекта. К его задачам относят проверку: готовности приложения к релизу, соответствие требований и качества."
+                android:textColor="#FF667D8A"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="183dp"
+                android:layout_height="420dp"
+                android:layout_marginTop="8dp"
+                android:text="2.	QA – это обеспечение качества продукта. Процесс изучения возможностей по внесению изменений и улучшению разработки. Из задач выделяет: тестирование, проверку технических характеристики, оценку возможных рисков, планирование задач для ускорения выпуска продукта. "
+                android:textColor="#FF667D8A"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView9"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        </LinearLayout>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Занятие 2"
+        android:textColor="#EDEDEF"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="660dp"
+        android:rotation="-70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paw" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="680dp"
+        android:rotation="-54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paw" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="83dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="708dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cat_stand" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="82dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988"
+        android:onClick="home"
+        app:srcCompat="@drawable/home" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="72dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="next"
+        app:srcCompat="@drawable/next" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

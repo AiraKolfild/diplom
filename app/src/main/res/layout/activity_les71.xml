@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6a7d8a"
+    tools:context=".les7_1">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/round_white"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="311dp"
+            android:layout_height="193dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:text=" - Тестирование безопасности. \n
+   Проводится для того, чтобы понять, насколько системы безопасности в системе или проекте работают. Позволяет оценить риски, связанные с обеспечением целостного подхода к выстраиванию защиты контента, атакам хакеров и вирусов."
+            android:textColor="#667D8A"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="48dp"
+            android:text=" - Нагрузочные проверки. \n
+   Нагрузочное тестирование. Базируется на автоматизации. Позволяет проверить автоматически, как бизнес-пользователи будут работать на том или ином ресурсе. Это – имитация поведения потенциальной целевой аудитории."
+            android:textColor="#667D8A"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="Проверка работоспособности
+Процессы, направленные на анализ способности системы взаимодействовать с одним или несколькими приложениями (компонентами). Предусматривает дополнительно проверку совместимости, а также интеграционное тестирование."
+            android:textColor="#667D8A"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="72dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/next" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="72dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="back"
+        android:rotationY="-174"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/next" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="82dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988"
+        app:srcCompat="@drawable/home" />
+
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="70dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="276dp"
+        app:layout_constraintBottom_toTopOf="@+id/LL1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat_stand" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

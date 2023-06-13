@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6a7d8a"
+    tools:context=".les1_1">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/round_white"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Цели
+        \nТестирование преследует определенные цели. К ним относят:
+        \n - Повышение вероятности того, что программный продукт будет в любых условиях функционировать «как надо».
+        \n - Проверка факта соответствия итогового контента выдвинутому набору требований.
+        \n - Предоставление актуальной информации о состоянии программы на текущий момент."
+            android:textColor="#667D8A"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="354dp"
+            android:layout_height="353dp"
+            android:layout_marginTop="10dp"
+            android:text="Для чего необходимо тестирование:
+\nТест – процесс проверки чего-либо. В разработке систем он очень важен. Помогает:
+\n - найти ошибки в приложении и оперативно их исправить;
+\n - получить программное обеспечение, удовлетворяющее запросы как пользователей, так и заказчика;
+\n - скорректировать функции и возможности утилиты до ее релиза, если это необходимо – особенно на ранней стадии написания."
+            android:textColor="#FF667D8A"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="97dp"
+        android:layout_height="57dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat_sit" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="684dp"
+        android:rotation="58"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paw" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="664dp"
+        android:rotation="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paw" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="72dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="back"
+        android:rotationY="-174"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LL1"
+        app:layout_constraintVertical_bias="0.943"
+        app:srcCompat="@drawable/next" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="82dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LL1"
+        app:layout_constraintVertical_bias="0.78"
+        app:srcCompat="@drawable/home" />
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

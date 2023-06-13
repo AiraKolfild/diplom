@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6a7d8a"
+    tools:context=".les7_2">
+
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/round_white"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            android:text=" - Стрессовые тесты. \n
+  Проверка на факт того, что система может работать в условиях стресса. Позволяет оценивать способность систем в регенерации. Стресс – это повышение интенсивности выполнения операций до критических значений или аварийные конфигурационные изменения на серверах."
+            android:textColor="#667D8A"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="332dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="5dp"
+            android:text=" - Тест надежности. \n
+   Проводится для того, чтобы удостовериться в работоспособности системы. Предусматриваются ситуации, при которых клиент использует проект длительно. Нагрузка здесь – средняя."
+            android:textColor="#667D8A"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="319dp"
+            android:layout_height="183dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text=" - Проверка установок. \n
+   Проверяется успешная установка и настройка. Данный вариант предусматривает анализ обновлений (насколько хорошо, быстро и точно они инициализируются), а также удаления проекта."
+            android:textColor="#667D8A"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="72dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="4dp"
+        android:rotation="58"
+        android:src="@drawable/paw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="82dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="72dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="back"
+        android:rotationY="-174"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/next" />
+
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="32dp"
+        android:rotation="41"
+        android:src="@drawable/paw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="48dp"
+        android:rotation="83"
+        android:src="@drawable/paw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:rotation="115"
+        android:src="@drawable/paw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cat_sit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

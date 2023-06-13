@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6a7d8a"
+    tools:context=".les5">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/round_white"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="347dp"
+            android:layout_height="262dp"
+            android:layout_marginTop="15dp"
+            android:text="Когда с общим представлением тестирования программ удалось ознакомиться, можно приступать к более сложным задачам. Рассматриваемые операции имеют требова ния. Это – спецификации (описания) того, что должно быть реализовано в ходе разработки системы/продукта. Описывают моменты, которые нужно воплотить в жизнь, не отражая техническую детализацию."
+            android:textColor="#667D8A"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="301dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="92dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сюда можно отнести следующие критерии:\n
+
+\n- Корректность. Каждое требование обязательно точно описывает желаемые инструменты и функции.
+\n
+\n- Проверяемость. Требование формулируется так, чтобы существовали способы однозадачной проверки на факт выполнения.
+\n
+\n- Полнота. Каждое описание содержит информацию, которой достаточно разработчику для грамотной реализации того или иного функционала.
+\n
+\n- Недвусмысленность. Сформулированные описания являются понятными. Они трактуются только одним способом. Неоднозначные аббревиатуры и выражения в них отсутствуют.
+\n
+\n- Непротиворечивость. Описание не должно содержать внутренних противоречий. То же самое касается «несоответствий» техническому заданию и иным документам.
+\n
+\n- Приоритетность. Приоритет требования представлен количественной оценкой степени важности.
+\n
+\n- Атомарность. Описание нельзя разделить на более мелкие без потери завершенности. Каждое требование описывает всего одну ситуацию.
+\n
+\n- Модифицируемость. Указывает на простоту внесения изменений в отдельные описания или их наборы.
+\n
+\n- Возможность отслеживания. Каждое описание имеет уникальный идентификатор. Он помогает обнаружить требование при необходимости.
+\n
+\n- Описание не может быть необязательным. Это – явное противоречие самому замыслу требований к тестированию."
+                android:textColor="#667D8A"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="320dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="82dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988"
+        app:srcCompat="@drawable/home" />
+
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Занятие 5"
+        android:textColor="#EDEDEF"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="47dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/LL1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat_stand" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

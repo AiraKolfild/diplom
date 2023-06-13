@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6a7d8a"
+    tools:context=".les3">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="625dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/round_white"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="351dp"
+            android:layout_height="165dp"
+            android:layout_marginTop="10dp"
+            android:text="                                 Этапы
+        \n
+\n   Для выполнения тестов и отладки системы, нужно организовывать процессы правильно. Существует некий алгоритм, отражающий этапы тестирования:"
+            android:textColor="#667D8A"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ScrollView
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView31">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.	Анализ имеющегося продукта. Это – первоначальная идея (задумка) проекта.
+\n
+\n2.	Работа с требованиями. На предыдущем этапе происходит формирование технического задания. Теперь предстоит изучить его и доработать, если это необходимо.
+\n
+\n3.	Разработка стратегий тестирования и планирование процедур по контролю качества.
+\n
+\n4.	Создание тестовой документации. Это – этап, на котором формируется «отчетность» для тестировщиков. Вспомогательные документы, опираясь на которые, специалисты будут грамотно выстраивать процессы.
+\n
+\n5.	Тестирование прототипов.
+\n
+\n6.	Основной этап проверок. Здесь выявляется полноценная работоспособность приложения, а также соответствие первоначальным требованиям заказчика.
+\n
+\n7.	Стабилизация и отладка.
+\n
+\n8.	Релиз и эксплуатация.
+"
+                android:textColor="#667D8A"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="320dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+        </ScrollView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="53dp"
+        android:rotation="-12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.799"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paw" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="88dp"
+        android:rotation="-33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paw" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:rotation="25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paw" />
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="82dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988"
+        app:srcCompat="@drawable/home" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Занятие 3"
+        android:textColor="#EDEDEF"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
